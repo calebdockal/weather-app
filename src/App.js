@@ -1,4 +1,4 @@
-import react, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import Weather from "./components/Weather";
 
@@ -9,7 +9,7 @@ function App() {
   const [lat, setLat] = useState([]);
   const [long, setLong] = useState([]);
 
-  const newString = "This is a string"
+  
 
   useEffect(() => {
     const fetchData = async () => {
